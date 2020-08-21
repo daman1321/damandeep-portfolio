@@ -48,7 +48,7 @@
     font-size: 23px;
 }
 .section{
-    padding:100px 0 ;
+    padding:20px 0 ;
 }
 .aboutImage {
     max-width: 80%;
@@ -63,7 +63,9 @@
 }
 .contactSection{
     background-color: #fff;
-    color: #e74c3c
+    color: #e74c3c;
+    padding: 50px;
+    
 }
 .skill {
     text-align: center;
@@ -158,3 +160,44 @@
     height: 100%;
     background: url(../images/icons/25.gif) center center no-repeat;
 }
+.media {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e74c3c;
+  }
+
+.fa-instagram {
+    color: #e84393;
+    margin: 10px;
+  }
+.fa-linkedin {
+    color: #0097e6;
+    margin: 10px;
+   
+}
+.fa-facebook{
+    color: #3b5998;
+    margin: 10px;
+  }
+.fa-twitter{
+    color:#00acee;
+    margin: 10px;
+} 
+.subheading2{
+    color: #e74c3c;
+
+}
+.fa-github{
+    color:#211f1f;
+    margin: 10px;
+}
+
+a i {
+    transition: all 0.3s linear;
+  
+  }
+a:hover i{
+    transform: scale(1.4);
+  }
