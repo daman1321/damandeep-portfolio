@@ -94,7 +94,7 @@
 .chart .percent:after {
     content: '%';
 }
-.contactButton {
+.contactButton  {
     color:#e74c3c;
     padding: 15px 20px;
     display: inline-block;
@@ -104,11 +104,12 @@
 
 }
 .contactButton:hover {
-    text-decoration: none;
-    color: #e74c3c;
     background-color: #fff;
-
+    color: #e74c3c;
+    text-decoration: none;
 }
+
+
 .copyrightSection{
     background-color: #000;
     color: #fff;
@@ -199,5 +200,23 @@ a i {
   
   }
 a:hover i{
-    transform: scale(1.4);
+    transform: scale(2.0);
+}
+
+.btn2{
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #e74c3e;
+    border-radius: 2px;
+    background-color: #e74c3c;
+    margin-bottom: 50px;
+                            
+}
+.btn2:hover {
+    background-color: #fff;
+    color: #e74c3c;
+    text-decoration: none;
+    transition: 0.3s;
   }
